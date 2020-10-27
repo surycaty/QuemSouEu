@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.MotionEvent
 import android.widget.ImageView
+import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -16,6 +17,7 @@ class AnimalActivity : AppCompatActivity() {
     private lateinit var txtName: TextView
     private lateinit var txtCountDown: TextView
     private lateinit var countDown: CountDownTimer
+    private lateinit var progressBar: ProgressBar
 
     private val FORMAT_COUNTER = "%02d"
     private val START_VALUE = 90L
@@ -28,15 +30,12 @@ class AnimalActivity : AppCompatActivity() {
 
         txtName = findViewById(R.id.txtAnimalName)
         txtCountDown = findViewById(R.id.txtCountDown)
+        progressBar = findViewById(R.id.progressBar)
 
         countDown = object : CountDownTimer(START_VALUE * 1000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
-//                txtCountDown.text = String.format(FORMAT_COUNTER,
-//                        TimeUnit.MILLISECONDS.toHours(millisUntilFinished),  // HOURS PASSED
-//                        TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(millisUntilFinished)),  // MINUTES PASSED (over the hours)
-//                        TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished)) // SECONDS PASSED (over the minutes)
-//                )
                 txtCountDown.text = String.format(FORMAT_COUNTER, millisUntilFinished / 1000)
+                progressBar.progress = txtCountDown.text.toString().toInt()
             }
 
             override fun onFinish() {

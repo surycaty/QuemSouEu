@@ -9,18 +9,35 @@
     android:orientation="vertical"
     tools:context=".AnimalActivity">
 
-    <TextView
-        android:id="@+id/txtCountDown"
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="80dp"
-        android:text="TextView"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toStartOf="@+id/cardView"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:progressBackgroundTint="@android:color/darker_gray"
+            android:progressTint="@color/white"
+            android:progressDrawable="@drawable/progress_circle" />
+
+
+        <TextView
+            android:id="@+id/txtCountDown"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="18dp"
+            android:textAlignment="center"
+            android:text="00"
+            android:textSize="30sp" />
+    </FrameLayout>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
