@@ -1,0 +1,54 @@
+<resources>
+    <string-array name="animals">
+        <item>Camelo</item>
+        <item>Gato</item>
+        <item>Vaca</item>
+        <item>Cachorro</item>
+        <item>Pato</item>
+        <item>Elefante</item>
+        <item>Peixe</item>
+        <item>Girafa</item>
+        <item>Ganso</item>
+        <item>Lula</item>
+        <item>Joaninha</item>
+        <item>Leão</item>
+        <item>Macaco</item>
+        <item>Panda</item>
+        <item>Pinguim</item>
+        <item>Coelho</item>
+        <item>Rato</item>
+        <item>Camarão</item>
+        <item>Cobra</item>
+        <item>Tigre</item>
+        <item>Touro</item>
+        <item>Tartaruga</item>
+        <item>Tubarão</item>
+        <item>Zebra</item>
+    </string-array>
+    <string-array name="filmes">
+        <item>Camelo</item>
+        <item>Gato</item>
+        <item>Vaca</item>
+        <item>Cachorro</item>
+        <item>Pato</item>
+        <item>Elefante</item>
+        <item>Peixe</item>
+        <item>Girafa</item>
+        <item>Ganso</item>
+        <item>Lula</item>
+        <item>Joaninha</item>
+        <item>Leão</item>
+        <item>Macaco</item>
+        <item>Panda</item>
+        <item>Pinguim</item>
+        <item>Coelho</item>
+        <item>Rato</item>
+        <item>Camarão</item>
+        <item>Cobra</item>
+        <item>Tigre</item>
+        <item>Touro</item>
+        <item>Tartaruga</item>
+        <item>Tubarão</item>
+        <item>Zebra</item>
+    </string-array>
+</resources>
