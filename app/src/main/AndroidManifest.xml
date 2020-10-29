@@ -10,9 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuemSouEu">
         <activity
-            android:name=".AnimalActivity"
+            android:name=".activity.AnimalActivity"
             android:screenOrientation="landscape"
             android:label="@string/title_activity_animal"
+            android:theme="@style/Theme.QuemSouEu.FullScreen" />
+        <activity
+            android:name=".activity.DesenhoActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_desenho"
             android:theme="@style/Theme.QuemSouEu.FullScreen" />
         <activity
             android:name=".MainActivity"

@@ -1,4 +1,4 @@
-package com.surycaty.quemsoueu
+package com.surycaty.quemsoueu.activity
 
 import android.graphics.Color
 import android.media.MediaPlayer
@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.surycaty.quemsoueu.R
 
 
 class AnimalActivity : AppCompatActivity() {
