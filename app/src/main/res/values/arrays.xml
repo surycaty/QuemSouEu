@@ -25,30 +25,23 @@
         <item>Tubarão</item>
         <item>Zebra</item>
     </string-array>
-    <string-array name="filmes">
-        <item>Camelo</item>
-        <item>Gato</item>
-        <item>Vaca</item>
-        <item>Cachorro</item>
-        <item>Pato</item>
-        <item>Elefante</item>
-        <item>Peixe</item>
-        <item>Girafa</item>
-        <item>Ganso</item>
-        <item>Lula</item>
-        <item>Joaninha</item>
-        <item>Leão</item>
-        <item>Macaco</item>
-        <item>Panda</item>
-        <item>Pinguim</item>
-        <item>Coelho</item>
-        <item>Rato</item>
-        <item>Camarão</item>
-        <item>Cobra</item>
-        <item>Tigre</item>
-        <item>Touro</item>
-        <item>Tartaruga</item>
-        <item>Tubarão</item>
-        <item>Zebra</item>
+    <string-array name="desenhos">
+        <item>Bob Esponja</item>
+        <item>Princesa Sophia</item>
+        <item>Dora a Aventureira</item>
+        <item>Ben 10</item>
+        <item>Homem Aranha</item>
+        <item>Blaze in The Monster Machine</item>
+        <item>Show da Luna</item>
+        <item>Cavaleiros dos Zodíaco</item>
+        <item>Dragon Ball Z</item>
+        <item>Sailor moon</item>
+        <item>Pica Pau</item>
+        <item>Tom e Jerry</item>
+        <item>Garfield</item>
+        <item>Smurfs</item>
+        <item>Capitão Caverna</item>
+        <item>Corrida Maluca</item>
+        <item>Caverna do Dragão</item>
     </string-array>
 </resources>
