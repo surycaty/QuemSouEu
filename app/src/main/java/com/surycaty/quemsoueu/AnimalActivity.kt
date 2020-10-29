@@ -97,7 +97,7 @@ class AnimalActivity : AppCompatActivity() {
 
         txtName.text = animal
 
-        txtCountDown.setTextColor(Color.BLACK)
+        txtCountDown.setTextColor(Color.WHITE)
 
         countDown.start()
 
