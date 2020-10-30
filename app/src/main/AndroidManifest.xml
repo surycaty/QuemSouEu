@@ -9,25 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuemSouEu">
+
         <activity
             android:name=".activity.AnimalActivity"
             android:screenOrientation="landscape"
             android:label="@string/title_activity_animal"
             android:theme="@style/Theme.QuemSouEu.FullScreen" />
+
         <activity
             android:name=".activity.DesenhoActivity"
             android:screenOrientation="landscape"
             android:label="@string/title_activity_desenho"
             android:theme="@style/Theme.QuemSouEu.FullScreen" />
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="landscape">
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -1,9 +1,9 @@
 package com.surycaty.quemsoueu
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 import com.surycaty.quemsoueu.activity.AnimalActivity
 import com.surycaty.quemsoueu.activity.DesenhoActivity
 
@@ -12,12 +12,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(R.id.btnAnimal).setOnClickListener {
+        findViewById<ImageButton>(R.id.btnAnimal).setOnClickListener {
             val activity2Intent = Intent(applicationContext, AnimalActivity::class.java)
             startActivity(activity2Intent)
         }
 
-        findViewById<Button>(R.id.btnDesenho).setOnClickListener {
+        findViewById<ImageButton>(R.id.btnDesenho).setOnClickListener {
             val activity2Intent = Intent(applicationContext, DesenhoActivity::class.java)
             startActivity(activity2Intent)
         }
